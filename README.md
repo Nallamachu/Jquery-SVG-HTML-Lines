@@ -126,5 +126,4 @@ Here is the complete code of my JSP page which I have linked few DIV's.
 **Note:** In line no 49 I am loading the source of jquery.html-svg-connect.js into my JSP. There DrawLines indecates my project name and JS is a folder which is present under the WebContent and which has the jquery.html-svg-connect.js file. These path information may vary as per your project. You need to pass the correct path to load JS data. Otherwise you will get the 404 error in console saying application path not correct.
 
 As per my source code you will see the output like below,
-![DrawLines]()
-
+![DrawLines](https://github.com/Nallamachu/Jquery-SVG-HTML-Lines/blob/master/drawing-line-between-divs.PNG)
