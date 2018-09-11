@@ -124,4 +124,4 @@ Here is the complete code of my JSP page which I have linked few DIV's.
 </html>
 ```
 As per my source code you will see the output like below,
-![DrawLines](https://github.com/Nallamachu/Jquery-SVG-HTML-Lines/blob/master/drawing-line-between-divs.PNG)
+![DrawLines](https://github.com/Nallamachu/Jquery-SVG-HTML-Lines/blob/master/drawing-line-between-div-elements.PNG)
