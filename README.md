@@ -52,7 +52,12 @@ Here is the complete code of my JSP page which I have linked few DIV's.
 			stroke : "#000",
 			strokeWidth : 8,
 			orientation : "auto",
-			paths : [ {
+			paths : [{
+				start : "#red",
+				end : "#green",
+				strokeWidth : 5
+			},
+			{
 				start : "#red",
 				end : "#aqua",
 				strokeWidth : 5
@@ -64,11 +69,7 @@ Here is the complete code of my JSP page which I have linked few DIV's.
 				start : "#purple",
 				end : "#aqua",
 				strokeWidth : 5
-			}, {
-				start : "#aqua",
-				end : "#green",
-				strokeWidth : 5
-			} ]
+			}]
 		});
 	});
 </script>
