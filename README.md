@@ -45,8 +45,7 @@ Here is the complete code of my JSP page which I have linked few DIV's.
 	rel="stylesheet" type="text/css">
 <script
 	src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<!-- DrawLines is the project name which I have created. This might be different for you. -->
-<script src="/DrawLines/js/jquery.html-svg-connect.js"></script>
+<script src="${pageContext.request.contextPath}/js/jquery.html-svg-connect.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$("#svgContainer").HTMLSVGconnect({
@@ -123,7 +122,5 @@ Here is the complete code of my JSP page which I have linked few DIV's.
 </body>
 </html>
 ```
-**Note:** In line no 49 I am loading the source of jquery.html-svg-connect.js into my JSP. There DrawLines indecates my project name and JS is a folder which is present under the WebContent and which has the jquery.html-svg-connect.js file. These path information may vary as per your project. You need to pass the correct path to load JS data. Otherwise you will get the 404 error in console saying application path not correct.
-
 As per my source code you will see the output like below,
 ![DrawLines](https://github.com/Nallamachu/Jquery-SVG-HTML-Lines/blob/master/drawing-line-between-divs.PNG)
