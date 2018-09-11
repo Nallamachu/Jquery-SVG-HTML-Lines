@@ -11,7 +11,7 @@
 	rel="stylesheet" type="text/css">
 <script
 	src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
-<script src="/DrawLines/js/jquery.html-svg-connect.js"></script>
+<script src="${pageContext.request.contextPath}/js/jquery.html-svg-connect.js"></script>
 <script type="text/javascript">
 	jQuery(document).ready(function($) {
 		$("#svgContainer").HTMLSVGconnect({
